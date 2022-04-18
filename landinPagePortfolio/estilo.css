@@ -7,6 +7,7 @@
     justify-content: center;
     flex-direction: column;
     align-items: center;
+    background-color: black;
 }
 
 body{
@@ -67,6 +68,7 @@ a{
     flex-direction:row;
     justify-content:space-around;
     align-content:center;
+    background-color: white;
     
     
 }
@@ -116,14 +118,68 @@ button {
     justify-content: center;
     align-content: center;
     align-items: center;
+    background-color: white;
 
 }
 
 .info-2 {
     height: 30%;
     width: 80%;
+    margin-top: 10px;
 }
 
 p{
     font-size: 18px;
+}
+
+.titulo-ventajas{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+    background-color: white;
+}
+
+.seccion-ventajas {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+    
+}
+.beneficios {
+     width: 20%;
+     text-align: center;
+}
+
+.titulo-trabajo {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3px;
+    background-color: white;
+}
+
+.seccion-trabajo {
+    width: 80%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: white;
+
+}
+
+.img-simbolo {
+    width: 35px;
+    height: 35px;
+}
+
+.items-trabajo {
+    width: 20%;
+    text-align: center;
 }
